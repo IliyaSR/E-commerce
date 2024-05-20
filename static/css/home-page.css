@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+main{
+    height: 800px;
+    background-color: #758BA5;
+    padding-top: 100px;
+}
+
+header{
+    background-color: #031930;
+}
+
+header > nav{
+    justify-content: space-between;
+}
+
+#logo{
+    color: #D1DDED;
+    margin: 0;
+    font-size: 25px;
+}
+
+#navbarNav{
+    justify-content: right;
+}
+
+#link{
+    color: #D1DDED;
+}
+
+#add-button{
+    color: #D1DDED;
+    background-color: #758BA5;
+    border-radius: 6px;
+}
+
+#add-button:hover{
+    color: #758BA5;
+    background-color: #D1DDED;
+}
+
+#link:hover{
+    color: #758BA5;
+}
+
+#menu{
+    color: #758BA5;
+    border: 1px solid #758BA5;
+}
+
+#main-container{
+    background-color: #D1DDED;
+    padding: 20px;
+    height: 400px;
+}
+
+#search{
+    border: 0;
+    color: #031930;
+}
+
+#search:focus{
+    outline: none;
+}
+
+#search-button{
+    color: #D1DDED;
+    background-color: #758BA5;
+    border: 2px solid #758BA5;
+}
+
+#search-button:hover{
+    color: #758BA5;
+    background-color: #D1DDED;
+}
+
+#category-container{
+    margin-top: 30px;
+}
+
+.category-images{
+    padding-top: 3px;
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+}
+
+.category-tittle{
+    padding-bottom: 30px;
+    color: #031930;
+    text-align: center;
+}
+
+#electronics, #home-garden, #tools, #auto-parts, #fashion, #animals{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#electronics p{
+    color: #031930;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+
+#search-container{
+    height: 35px;
+}
+
+.fa-solid{
+    padding-right: 8px;
+}
+
+#electronics:hover, #home-garden:hover, #tools:hover, #auto-parts:hover, #fashion:hover, #animals:hover{
+    background-color: #758BA5;
+}
+
+#electronics-hidden a, #home-garden-hidden a, #tools-hidden a, #auto-parts-hidden a, #fashion-hidden a, #animals-hidden a{
+    text-decoration: none;
+    color: #031930;
+    padding-bottom: 20px;
+}
+
+#electronics-hidden div, #home-garden-hidden div, #tools-hidden div, #auto-parts-hidden div, #fashion-hidden div, #animals-hidden div{
+    margin-bottom: 15px;
+}
+
+#electronics-hidden a:hover, #home-garden-hidden a:hover, #tools-hidden a:hover, #auto-parts-hidden a:hover, #fashion-hidden a:hover, #animals-hidden a:hover{
+    text-decoration: underline #031930;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #nav-elements{
+        text-align: center;
+    }
+}
