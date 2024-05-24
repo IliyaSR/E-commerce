@@ -72,6 +72,7 @@ header > nav{
     color: #D1DDED;
     background-color: #758BA5;
     border: 2px solid #758BA5;
+    padding: 0;
 }
 
 #search-button:hover{
@@ -142,11 +143,42 @@ header > nav{
 #second-container h2{
     margin: 35px 0 35px 0;
     text-align: center;
+    color: #031930;
 }
 
 .ad-image{
-    width: 225px;
-    height: 200px;
+    width: 250px;
+    height: 220px;
+    margin-bottom: 3px;
+}
+
+#ads-container{
+    text-align: center;
+}
+
+#current-ad{
+    cursor: pointer;
+}
+
+#current-ad h3{
+    font-size: 20px;
+    padding: 3px;
+    margin: 0;
+    color: #031930;
+}
+
+#current-ad h4{
+    font-size: 18px;
+    padding: 3px;
+    margin: 0;
+    color: #031930;
+}
+
+#current-ad p{
+    font-size: 16px;
+    padding: 3px;
+    margin: 0;
+    color: #031930;
 }
 
 
@@ -156,6 +188,6 @@ header > nav{
     }
 
     #main-container{
-        height: 800px;
+        height: 740px;
     }
 }
