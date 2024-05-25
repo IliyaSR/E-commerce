@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+main{
+    height: 800px;
+    background-color: #758BA5;
+    padding-top: 100px;
+}
+
+header{
+    background-color: #031930;
+}
+
+header > nav{
+    justify-content: space-between;
+}
+
+#logo{
+    color: #D1DDED;
+    margin: 0;
+    font-size: 25px;
+}
+
+#navbarNav{
+    justify-content: right;
+}
+
+#link{
+    color: #D1DDED;
+}
+
+#add-button{
+    color: #D1DDED;
+    background-color: #758BA5;
+    border-radius: 6px;
+}
+
+#add-button:hover{
+    color: #758BA5;
+    background-color: #D1DDED;
+}
+
+#link:hover{
+    color: #758BA5;
+}
+
+#menu{
+    color: #758BA5;
+    border: 1px solid #758BA5;
+}
+
+#main-container{
+    background-color: #D1DDED;
+    padding: 20px;
+    height: 480px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#sign-in-row > div:first-child{
+    text-align: center;
+    border-right: 1px solid #031930;
+}
+
+#sign-in-row div{
+    text-align: center;
+}
+
+#sign-in-row a{
+    text-decoration: none;
+    color: #031930;
+    font-size: 19px;
+}
+
+#sign-in-row a:hover{
+    text-decoration: underline;
+}
+
+#mail{
+    width: 300px;
+}
+
+#mail-input{
+    width: 300px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 3px;
+    opacity: 70%;
+    border: none;
+    outline: none;
+}
+
+#mail-container{
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-container{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.forget-password{
+    text-decoration: none;
+    color: #031930;
+}
+
+.forget-password:hover{
+    text-decoration: underline #031930;
+}
+
+.forget-password-container{
+    margin-top: 30px;
+}
+
+.sign-in-button{
+    width: 300px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #FFFFFF opacit;
+    color: #031930;
+}
+
+.sign-in-button:hover{
+    background-color: #758BA5;
+    color: #D1DDED;
+}
+
+@media only screen and (max-width: 499px) {
+    #main-container{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #main-container{
+        width: 350px;
+    }
+}
